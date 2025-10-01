@@ -1,14 +1,13 @@
 ---
 title: "Your Document Title"
-author: "Your Name"
-date: "October 1, 2025"
+author: ""
+date: ""
 output: 
   prettydoc::html_pretty:
     theme: cayman
     highlight: github
 ---
 
-{% include head.html %}
 
 ```{r setup, include=FALSE} 
 knitr::opts_chunk$set(warning = FALSE, message = FALSE) 
