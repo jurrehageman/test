@@ -1,3 +1,13 @@
+---
+title: "Your Document Title"
+author: "Your Name"
+date: "October 1, 2025"
+output: 
+  prettydoc::html_pretty:
+    theme: cayman
+    highlight: github
+---
+
 {% include head.html %}
 
 ```{r setup, include=FALSE} 
